@@ -1,0 +1,269 @@
+ header {
+            background-color: #ffffff;  
+            padding: 5px;  
+            padding-top: 50px;
+            text-align: center;
+           
+        }
+        header img {
+            width: 80px; 
+            height: 40px; 
+            margin: 0 20px;
+            position: absolute;
+            left: 30px; 
+            top: 40px;
+            padding-top: 25px;
+        }
+
+        .contenedor1 {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+
+        .boton{
+            background-color: #ffffff;
+            color: #000000;
+            padding: 10px 25px;
+            border: 1px solid;
+            border-color: rgb(212, 212, 212);
+            cursor: pointer;
+            position: absolute;
+            left: 80px;
+            top: 9px;
+        }
+
+        .boton2{
+            background-color: #ffffff;
+            color: #000000;
+            padding: 10px 25px;
+            border: 1px solid;
+            border-color: rgb(212, 212, 212);
+            cursor: pointer;
+            position: absolute;
+            left: 165px;
+            top: 9px;
+        }
+
+        .boton3{
+            display: inline-block;
+            background-color: #ffffff;
+            background-image: url('imagenes/iconojordan.jpg');
+            padding: 17.5px 15px;
+            border: 1px solid;
+            border-color: rgb(212, 212, 212);
+            cursor: pointer;
+            position: absolute;
+            left: 255px;
+            top: 9px;
+            background-size: cover;
+        }
+
+       .nike p{
+        font-size: 16px;
+        position: absolute;
+        top: 0px;
+        left: 700px;
+        color: #000000;
+        font-family: Arial, Helvetica, sans-serif;
+
+       }
+
+       .boton4{
+             display: inline-block;
+            background-color: #ffffff;
+            background-image: url('imagenes/iconotienda.jpg');
+            padding: 7px 7px;
+            border: 1px solid;
+            border-color: rgb(212, 212, 212);
+            cursor: pointer;
+            position: absolute;
+            left: 1150px;
+            top: 17px;
+            background-size: cover;
+       }
+
+       .boton5{
+        display: inline-block;
+        background-image: url('imagenes/iconobandera.jpg');
+        padding: 7px 7px;
+        border-color: #ffffff;
+        position: absolute;
+        left: 1170px;
+        top: 15px;
+        background-size: cover;
+       }
+
+       .busqueda{
+        display: flex;
+        align-items: center;
+    }
+
+    .campo-busqueda {
+        padding: 10px;
+        position: absolute;
+        top: 65px;
+        left: 1100px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        flex-grow: 1px;
+    }
+
+   
+        header ul{
+            padding: 20px;
+            color: black;
+        }
+
+        header a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+        header ul {
+            list-style: none; 
+            padding: 0;
+        }
+        header li {
+            display: inline; 
+            margin-right: 3px; 
+        }
+
+
+
+        .imagenes{
+            display:flex;
+           justify-content: space-between;
+           
+        }
+
+        .imagen1{
+            margin-right: 0;
+        }
+        .imagen2{
+            margin-right: 0;
+        }
+
+        .imagen3{
+            margin-left: 0;
+        }
+        .cuadro{
+            padding: 30px;
+            border: 1px solid #cacaca;
+            background-color: #fcf8f8;
+           border-bottom:0;
+           border-left: 0;
+           border-right: 0;
+           
+        }
+
+        .contenedor4{
+            text-align: center;
+        }
+
+        .comprar{
+         text-align: center;
+         background-color: #1f1f1f;
+         color: #ffffff;
+         padding: 10px;
+
+        }
+
+        .contenedor4 p{
+            font-size: 16px;
+        }
+
+        .contenedor5{
+            display:flex;
+            
+            
+        }
+        .banner1 img{
+            position: relative;
+            height: 562px;
+        }
+
+        .banner2 img{
+            position: relative; 
+            top: 0px;
+            left: -80px;
+            height: 562px; 
+            display: none;
+            
+
+        }
+
+        .contenedor6{
+            text-align: center;
+        }
+
+        .contenedor6 p{
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+        .botones button{
+            background-color: #1f1f1f;
+            color: #ffffff ;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .contenedor7 img{
+            position: relative;
+            width: 1270px;
+        }
+
+        .texto{
+            position: relative;  
+        }
+         
+
+        .texto p{
+            position: absolute;
+            top:20px;
+            font-size: 22px;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+            left: 50px;
+
+        }
+        
+        .texto2 p{
+            position: absolute;
+            top:70px;
+            font-size: 13px;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+            left: 50px;
+        }
+
+        .botones4 button{
+            position: relative;
+            top: -350px;
+            left:50px ;
+            background-color: #ffffff;
+            color: #000000 ;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .cuadro4{
+            position: absolute;
+            top: 2140px;
+            left: 48px;
+            width: 1248px; /* Ancho del cuadro */
+            height: 150px; /* Altura del cuadro */
+            background-color: #252525; /* Color de fondo del cuadro */
+            border: 1px solid #000; /* Borde del cuadro */
+            padding: 10px; 
+
+        }
+
+        .cuadro4 p{
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
